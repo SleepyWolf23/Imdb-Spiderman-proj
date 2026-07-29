@@ -6,8 +6,43 @@
     <title>Imdb Spiderman</title>
     <script src="index.js"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b1cd8e1a76.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    
+<body id="movies__body">
+    <section>
+        <nav>
+            <div class="nav__container">
+                <i class="fa-brands fa-imdb" ></i>
+                <ul class="nav__links">
+                   <li>
+                    <a href="#" class="nav__link">Home</a>
+                   </li> 
+                   <li>
+                    <a href="#" class="nav__link">Find your movie</a>
+                   </li> 
+                   <li>
+                    <a href="#" class="nav__link nav__link--primary">Contact</a>
+                   </li> 
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <main id="movies__main">
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="movies__header">
+                        <h2 class="section__title movies__header--title">
+                            All <span class="blue">Movies</span>
+                        </h2>
+                        <div class="input-wrap">
+                            <input type="text" placeholder="Search by movie title or id">
+                            <i class="fa-solid fa-magnifying-glass" ></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
