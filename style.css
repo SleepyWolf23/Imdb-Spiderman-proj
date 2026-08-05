@@ -49,6 +49,13 @@ a {
     background-color: #ececec
 }
 
+.movies__section--sub-title {
+    padding-bottom: 10px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
 /* NAV */
 
 nav {
