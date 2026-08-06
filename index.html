@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imdb Spiderman</title>
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/b1cd8e1a76.js" crossorigin="anonymous"></script>
 </head>
@@ -35,14 +35,59 @@
                         <h2 class="section__title movies__header--title">
                             All <span class="blue">Movies</span>
                         </h2>
-                        <h4 class="movies__section--sub-title">Search for any Spider-Man movie here!</h4>
-                        <div class="input-wrap">
-                            <input type="text" placeholder="Search by movie title or id">
+                        <div class="search__wrapper">
+                            <label for="search">Search movies:</label>
+                            <input type="search" id="search">
                             <i class="fa-solid fa-magnifying-glass" ></i>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <section id="movie-cards">
+            <div class="movie-grid">
+                <div class="card">
+                    <img class="movie__img" src=https://m.media-amazon.com/images/M/MV5BMmFiZGZjMmEtMTA0Ni00MzA2LTljMTYtZGI2MGJmZWYzZTQ2XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg>
+                    <a class="card__link" href=#>Spider-Man: No Way Home</a>
+                </div>
+                <div class="card">
+                    <img class="movie__img" src=https://m.media-amazon.com/images/M/MV5BZWM0OWVmNTEtNWVkOS00MzgyLTkyMzgtMmE2ZTZiNjY4MmFiXkEyXkFqcGc@._V1_SX300.jpg>
+                    <a class="card__link" href=#>Spider-Man</a>
+                </div>
+                <div class="card">
+                    <img class="movie__img" src=https://m.media-amazon.com/images/M/MV5BODY2MTAzOTQ4M15BMl5BanBnXkFtZTgwNzg5MTE0MjI@._V1_QL75_UX380_CR0,0,380,562_.jpg>
+                    <a class="card__link" href=#>Spider-Man: Homecoming</a>
+                </div>
+                <div class="card">
+                    <img class="movie__img" src=https://m.media-amazon.com/images/M/MV5BNGQ0YTQyYTgtNWI2YS00NTE2LWJmNDItNTFlMTUwNmFlZTM0XkEyXkFqcGc@._V1_SX300.jpg>
+                    <a class="card__link" href=#>Spider-Man: 2</a>
+                </div>
+                <div class="card">
+                    <img class="movie__img" src=https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_SX300.jpg>
+                    <a class="card__link" href=#>Spider-Man: Into the Spider-Verse</a>
+                </div>
+                <div class="card">
+                    <img class="movie__img" src=https://m.media-amazon.com/images/M/MV5BMjMyOTM4MDMxNV5BMl5BanBnXkFtZTcwNjIyNzExOA@@._V1_QL75_UX380_CR0,1,380,562_.jpg>
+                    <a class="card__link" href=#>The Amazing Spider-Man</a>
+                </div>
+                <div class="card">
+                    <img class="movie__img" src=https://m.media-amazon.com/images/M/MV5BODE2NzNhMDctYjUzMC00Y2M5LWI2Y2EtODJkZTFjN2Y5ODlmXkEyXkFqcGc@._V1_SX300.jpg>
+                    <a class="card__link" href=#>Spider-Man: 3</a>
+                </div>
+                <div class="card">
+                    <img class="movie__img" src=https://m.media-amazon.com/images/M/MV5BMzNhNTE0NWQtN2E1Ny00NjcwLTg1YTctMGY1NmMwODJmY2NmXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg>
+                    <a class="card__link" href=#>Spider-Man: Far From Home</a>
+                </div>
+                <div class="card">
+                    <img class="movie__img" src=https://m.media-amazon.com/images/M/MV5BOTA5NDYxNTg0OV5BMl5BanBnXkFtZTgwODE5NzU1MTE@._V1_QL75_UX380_CR0,0,380,562_.jpg>
+                    <a class="card__link" href=#>The Amazing Spider-Man 2</a>
+                </div>
+                <div class="card">
+                    <img class="movie__img" src=https://m.media-amazon.com/images/M/MV5BNThiZjA3MjItZGY5Ni00ZmJhLWEwN2EtOTBlYTA4Y2E0M2ZmXkEyXkFqcGc@._V1_SX300.jpg>
+                    <a class="card__link" href=#>Spider-Man: Across the Spider-Verse</a>
+                </div>
+            </div>
+       
         </section>
     </main>
 </body>
